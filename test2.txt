@@ -1,7 +1,18 @@
-1
-2ddddddddddddd
-6adadadadadadadaa
-7
-8adadad
-9
-10dadada
+void television::set_name(char *name)
+{
+	this->name = name;
+}
+void television::get_name()
+{
+	cout << "Название фильма: " << this->name << endl;
+	
+}
+
+//день недели
+
+void television::set_day(char *day)
+{
+	this->day = day;
+}
+void television::get_day()
+{

@@ -1,18 +1,2 @@
-void television::set_name(char *name)
-{
-	this->name = name;
-}
-void television::get_name()
-{
-	cout << "Название фильма: " << this->name << endl;
-	
-}
-
-//день недели
-
-void television::set_day(char *day)
-{
-	this->day = day;
-}
-void television::get_day()
+1231313
 {
